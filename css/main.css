@@ -1,0 +1,50 @@
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#doMath {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+
+h1 {
+    font-size: 10vmin;
+}
+
+#display {
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    color: white;
+    background-color: gray;
+    height: 7vmin;
+    width: 7vmin;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+button:hover {
+    color: gray;
+    background-color: white;
+}
+
+input {
+    width: 10vmin;
+    height: 7vmin;
+    font-size: 4vmin;
+    border-radius: 5px;
+    border-color: gray;
+    text-align: center;
+
+}
+
+/* center text in field*/
+
+/*hover button color changes*/
